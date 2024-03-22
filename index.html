@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Moon</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="imagex/png" href="IMG/moon.png">
+</head>
+<body>
+    <div class="selecao">
+        <select name="144p" class="selecao" id="moon" onchange="trocarImagem()">
+            <option value="IMG/Lua1.png" selected>144p</option>
+            <option value="IMG/Lua2.png">240p</option>
+            <option value="IMG/Lua3.png">480p</option>
+            <option value="IMG/Lua4.png">720p</option>
+            <option value="IMG/Lua5.png">1080p</option>
+        </select>
+    </div>
+
+    <div class="div">
+        <img id="imagemExibida" class="img" src="IMG/Lua1.png" alt="Imagem exibida">
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
